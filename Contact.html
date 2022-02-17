@@ -27,10 +27,10 @@
               <a class="nav-link active" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="about.html">About us</a>
+              <a class="nav-link" href="index.html">About us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="Contact.html">Contact Me</a>
+              <a class="nav-link" href="index.html">Contact Me</a>
             </li>
           </ul>
         </div>
@@ -38,15 +38,24 @@
     </nav>
     <!--akhir navbar-->
 
-    <!--Jumbroton-->
-    <section align="center">
-      <img src="img/gambar.jpg" class="rounded-image" width="150" />
-      <h1 class="display-4" align="center">Bilal Saputra</h1>
-      <p class="lead" align="center">Web Developer</p>
-      <hr class="my-4" />
-      <p>“Antusias sebagai mahasiswa dan bermotivasi tinggi dengan kemampuan kepemimpinan, inisiatif dan tantangan baru. Ahli dalam berbagai organisasi aktif internal maupun eksternal kampus.”.</p>
-    </section>
-    <!--akhir Jumbroton-->
+    <div align="center">
+      <h1>Contact Me</h1>
+      <form>
+        <label for="email">Email</label><br />
+        <input type="email" name="email" placeholder="alamat email" />
+        <br />
+        <label for="message">Pesan</label><br />
+        <textarea name="message" placeholder="Tulis pesan anda..." rows="4" cols="80"></textarea>
+        <br />
+        <br />
+        <input type="submit" value="Kirim" />
+      </form>
+    </div>
+
+    <hr />
+    <footer style="text-align: center">
+      <p>Copyright &copy; 2022 Bilal Saputra.</p>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
