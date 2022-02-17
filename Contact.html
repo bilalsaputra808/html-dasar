@@ -15,7 +15,7 @@
   </head>
   <body>
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm">
+    <nav col-md class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm">
       <div class="container">
         <a class="navbar-brand" href="#">Bilal Saputra</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,10 +27,13 @@
               <a class="nav-link active" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="index.html">About us</a>
+              <a class="nav-link" href="about.html">About us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Contact Me</a>
+              <a class="nav-link" href="Contact.html">Contact Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="portfolio.html">Portfolio</a>
             </li>
           </ul>
         </div>
@@ -38,19 +41,25 @@
     </nav>
     <!--akhir navbar-->
 
-    <div align="center">
-      <h1>Contact Me</h1>
-      <form>
-        <label for="email">Email</label><br />
-        <input type="email" name="email" placeholder="alamat email" />
-        <br />
-        <label for="message">Pesan</label><br />
-        <textarea name="message" placeholder="Tulis pesan anda..." rows="4" cols="80"></textarea>
-        <br />
-        <br />
-        <input type="submit" value="Kirim" />
-      </form>
-    </div>
+    <!--Contact-->
+    <form>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" />
+      </div>
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+    <!--akhir Contact-->
 
     <hr />
     <footer style="text-align: center">

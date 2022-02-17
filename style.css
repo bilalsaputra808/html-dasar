@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(#070781, #05addb);
+  background: linear-gradient(#2323f5, #05addb);
 }
 
 section {
@@ -18,4 +18,12 @@ p {
 h1 {
   color: black;
   font-weight: bold;
+}
+
+nav {
+  background: linear-gradient(#0d0df0, #03c1f5);
+}
+
+form {
+  color: white;
 }
