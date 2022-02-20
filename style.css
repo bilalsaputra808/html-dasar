@@ -1,0 +1,29 @@
+body {
+  background: linear-gradient(#7070e0, #05addb);
+}
+
+section {
+  padding: 2rem 1rem;
+}
+.rounded-image {
+  border-radius: 200px;
+  -webkit-border-radius: 200px;
+  -moz-border-radius: 200px;
+}
+
+p {
+  color: white;
+}
+
+h1 {
+  color: black;
+  font-weight: bold;
+}
+
+nav {
+  background: linear-gradient(#0d0df0, #03c1f5);
+}
+
+form {
+  color: white;
+}
