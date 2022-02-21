@@ -1,5 +1,8 @@
+
 body {
-  background: linear-gradient(#7070e0, #05addb);
+  font-family: sans-serif;
+  background: linear-gradient(#b7e4f3, #0bc5f8);
+  
 }
 
 section {
@@ -15,15 +18,25 @@ p {
   color: white;
 }
 
+@font-face {
+  src: HAPPY DONUTS ITALIC.ttf;
+}
+
 h1 {
   color: black;
   font-weight: bold;
 }
 
-nav {
-  background: linear-gradient(#0d0df0, #03c1f5);
-}
 
 form {
-  color: white;
+  color: aliceblue;
+  margin: 80px auto;
+  width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background: rgb(5, 124, 163);
 }
+
+
+
+

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -10,53 +9,58 @@
 
     <!--My CSS-->
     <link rel="stylesheet" href="style.css" />
+    <style>
+      @font-face {
+      font-family: myFirstFont;
+      src: url(HAPPY DONUTS ITALIC.ttf);
+    }
+section {
+  font-family: myFirstFont; 
+}
+    </style>
+
+  <!--nav link-->
+  <style>
+    .nav-link {
+      color: rgb(255, 251, 251) !important;
+    }
+  </style>
 
     <title>My Portfolio| Bilal Saputra</title>
   </head>
   <body>
-    <!--Navbar-->
-    <nav col-md class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm">
-      <div class="container">
-        <a class="navbar-brand" href="#">Bilal Saputra</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="about.html">About us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="Contact.html">Contact Me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="portfolio.html">Portfolio</a>
-            </li>
-          </ul>
-        </div>
+   <!--Navbar-->
+   <nav col-md class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm">
+    <div class="container">
+      <a class="navbar-brand">Bilal Saputra</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Contact.html">Contact Me</a>
+          </li>
+        </ul>
       </div>
-    </nav>
-    <!--akhir navbar-->
+    </div>
+  </nav>
+  <!--akhir navbar-->
 
     <!--Jumbroton-->
     <section align="center">
-      <img src="img/gambar.png" width="150" />
-      <h1 class="display-4" align="center">Bilal Saputra</h1>
-      <p class="lead" align="center">Web Developer</p>
-      <hr class="my-4" />
-      <p>“Antusias sebagai mahasiswa dan bermotivasi tinggi dengan kemampuan kepemimpinan, inisiatif dan tantangan baru. Ahli dalam berbagai organisasi aktif internal maupun eksternal kampus.”.</p>
-    </section>
-    <!--akhir Jumbroton-->
-
-    <!--Jumbroton-->
-    <section align="center">
-      <h1 class="display-4" align="center">About us</h1>
-      <p class="lead" align="center">Hi, saya adalah web developer, saat ini sedang belajar HTML dan CSS</p>
-      <p class="lead" align="center">Saya masih baru dalam web develompent. Karena itu saya tidak akan pernah berhenti belajar.</p>
-      <p class="lead" align="center">Saya ingin menguasai bahas HTML dan CSS dan Javascript</p>
+      <h1 class="display-4" align="center" href="about.html">Web Develover</h1>
+      <p class="lead" align="center">“We love what we do and we do what our clients love & work with great</p>
+      <p class="lead" align="center">clients all over the world to create thoughtful and purposeful websites.”</p>
+      <div class="card mb-3">
+        <img src="img/img1.jpg" class="card-img-top" alt="img1" />
+      </div>
     </section>
     <!--akhir Jumbroton-->
 
@@ -73,7 +77,7 @@
           <div class="card">
             <img src="img/1.jpg" class="card-img-top" alt="img1" />
             <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text" style="color: black;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
           </div>
         </div>
@@ -81,7 +85,7 @@
           <div class="card">
             <img src="img/2.jpg" class="card-img-top" alt="img2" />
             <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text" style="color: black;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
           </div>
         </div>
@@ -89,7 +93,7 @@
           <div class="card">
             <img src="img/3.jpg" class="card-img-top" alt="img3" />
             <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text" style="color: black;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
           </div>
         </div>
