@@ -34,6 +34,6 @@ form {
   background: rgb(5, 124, 163);
 }
 
-
-
-
+div select option{
+  margin-top: 100px;
+}
