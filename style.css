@@ -34,3 +34,15 @@ form {
   background: rgb(5, 124, 163);
 }
 
+.d-flex {
+  display: flex;
+  background-color: rgb(252, 247, 247);
+  box-shadow: 4px 4px 10px rgb(218, 213, 213);
+  height: 40px;
+  width: 1110px;
+  margin-bottom: 10px;
+  box-shadow: 50px;
+  margin: 20px;
+}
+
+
