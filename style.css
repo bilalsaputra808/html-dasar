@@ -45,5 +45,34 @@ form {
   margin: 20px;
 }
 
+.container-card {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 
+.card-2 {
+  background: white;
+  width: 250px;
+  height: 350px;
+  margin: 10px;
+}
+
+.card-image {
+  height: 170px;
+  margin-bottom: 15px;
+  background-size: cover;
+}
+
+.car-1 {
+  background-image: url(img/1.jpg);
+}
+
+.car-2 {
+  background-image: url(img/2.jpg);
+}
+
+.car-3 {
+  background-image: url(img/3.jpg);
+}
 
