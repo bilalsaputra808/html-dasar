@@ -1,8 +1,6 @@
-
 body {
   font-family: sans-serif;
   background: linear-gradient(#b7e4f3, #0bc5f8);
-  
 }
 
 section {
@@ -18,12 +16,10 @@ p {
   color: white;
 }
 
-
 h1 {
   color: rgb(2, 2, 2);
   font-weight: bold;
 }
-
 
 form {
   color: aliceblue;
@@ -75,4 +71,3 @@ form {
 .car-3 {
   background-image: url(img/3.jpg);
 }
-
