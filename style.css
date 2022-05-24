@@ -39,6 +39,14 @@ form {
   margin-bottom: 10px;
   box-shadow: 50px;
   margin: 20px;
+  border-radius: 4px;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.3rem;
+}
+
+i {
+  margin-right: 10px;
 }
 
 .container-card {
@@ -70,4 +78,48 @@ form {
 
 .car-3 {
   background-image: url(img/3.jpg);
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15;
+  margin-left: -15;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.section-list-event .box .section-box {
+  margin-bottom: 1vw;
+}
+
+@media (min-width: 768px)
+.col-md-4 {
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+}
+
+.section-list-event .box .card-body {
+  background-color: transparent;
+  padding: 0;
+  text-decoration: none;
+  height: 100%;
+}
+.card-body {
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem;
+}
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
 }
